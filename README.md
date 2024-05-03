@@ -56,8 +56,8 @@ Since these parameters are sufficient for the philosophers to survive, the progr
 ./philo 4 410 200 200
 ```
 ### Must Eat Test:
-If we use the same values but enter the number_of_times_each_philosopher_must_eat parameter,
-the programme will end when each philosopher has eaten as much food as number_of_times_each_philosopher_must_eat.
+If we use the same values but enter the number_of_times_each_philosopher_must_eat parameter (5),
+the programme will end when each philosopher has eaten as much food as number_of_times_each_philosopher_must_eat (5).
 ```bash
 ./philo 4 410 200 200 5
 ```
