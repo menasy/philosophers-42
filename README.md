@@ -41,34 +41,33 @@ This project is part of the 42 school curriculum and focuses on multi-threading/
 - Status logs must not be mixed up with other philosophers' logs.
 - Death of a philosopher must be printed within 10 ms of occurrence.
 
-## Installation
+## Installation And Usage
 ```bash
 git clone git@github.com:MeNasy/philosophers-42.git
 ```
 ```bash
 cd path/to/philo
 ```
-## Usage
-# Compile
 ```bash
 make
 ```
-# Execute
+## Execute
 - `./philo number_of_philosophers time_to_die time_to_eat time_to_sleep number_of_times_each_philosopher_must_eat`
 - Replace each placeholder with the corresponding value. For example:
-  No Die Test:
-- `Since these parameters are sufficient for the philosophers to survive, the programme will not terminate.`
+
+# No Die Test:
+Since these parameters are sufficient for the philosophers to survive, the programme will not terminate.
 ```bash
 ./philo 4 410 200 200
 ```
-Must Eat Test:
-- `If we use the same values but enter the number_of_times_each_philosopher_must_eat parameter,`
-- `the programme will end when each philosopher has eaten as much food as number_of_times_each_philosopher_must_eat.`
+# Must Eat Test:
+If we use the same values but enter the number_of_times_each_philosopher_must_eat parameter,
+the programme will end when each philosopher has eaten as much food as number_of_times_each_philosopher_must_eat.
 ```bash
 ./philo 4 410 200 200 5
 ```
-Die Test: 
-- `Since the values given are not enough for philosophers to live, a philosopher will die and the programme will end.`
+# Die Test: 
+Since the values given are not enough for philosophers to live, a philosopher will die and the programme will end.
 ```bash
 ./philo 4 410 200 200
 ```
