@@ -5,11 +5,6 @@
 ## Overview
 This project is part of the 42 school curriculum and focuses on multi-threading/multi-process programming using mutexes and semaphores. It includes three different programs that simulate variations of the classic Dining Philosophers problem, adhering to the same fundamental rules. The objective is to optimize C code to minimize CPU usage, ensuring the survival of the philosophers.
 
-### Programs
-- `philo_one`: Utilizes multi-threading with mutexes.
-- `philo_two`: Employs multi-threading with semaphores.
-- `philo_three`: Uses multi-processes with semaphores.
-
 ## Rules
 - The project must be coded in C, following the 42 Norm. Any memory leak, crash, undefined behavior, or norm violation will result in a score of 0.
 - Philosophers are engaged in one of three activities: eating, thinking, or sleeping, without overlapping actions.
@@ -53,21 +48,21 @@ make
 ```
 ## Execute
 - `./philo number_of_philosophers time_to_die time_to_eat time_to_sleep number_of_times_each_philosopher_must_eat`
-- Replace each placeholder with the corresponding value. For example:
+Replace each placeholder with the corresponding value. For example:
 
-# No Die Test:
+### No Die Test:
 Since these parameters are sufficient for the philosophers to survive, the programme will not terminate.
 ```bash
 ./philo 4 410 200 200
 ```
-# Must Eat Test:
+### Must Eat Test:
 If we use the same values but enter the number_of_times_each_philosopher_must_eat parameter,
 the programme will end when each philosopher has eaten as much food as number_of_times_each_philosopher_must_eat.
 ```bash
 ./philo 4 410 200 200 5
 ```
-# Die Test: 
+### Die Test: 
 Since the values given are not enough for philosophers to live, a philosopher will die and the programme will end.
 ```bash
-./philo 4 410 200 200
+./philo 4 310 200 100
 ```
