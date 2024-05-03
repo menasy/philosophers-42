@@ -1,4 +1,4 @@
-# Philosophers Project
+# Dining Philosophers Problem
 
 ![Dining Philosophers Problem](https://upload.wikimedia.org/wikipedia/commons/7/7b/An_illustration_of_the_dining_philosophers_problem.png)
 
@@ -17,6 +17,7 @@ This project is part of the 42 school curriculum and focuses on multi-threading/
 - Philosophers must not starve and should not communicate or predict the death of their peers.
 - The simulation ends when a philosopher dies.
 ![Eating Rules](https://camo.githubusercontent.com/9e4ebb996ddb180a2523cabaaa01c16a7a45d5020eb0fb3686acb6f093fa053d/68747470733a2f2f7a7570696d616765732e6e65742f75702f32302f33382f697337712e706e67)
+
 ## Simulation Options
 - `number_of_philosophers`: The count of philosophers and forks.
 - `time_to_die`: The maximum time (ms) a philosopher can go without eating before dying.
@@ -38,4 +39,3 @@ This project is part of the 42 school curriculum and focuses on multi-threading/
 ## Constraints
 - Status logs must not be mixed up with other philosophers' logs.
 - Death of a philosopher must be printed within 10 ms of occurrence.
-
