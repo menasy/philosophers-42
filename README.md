@@ -17,7 +17,10 @@ This project is part of the 42 school curriculum and focuses on multi-threading/
 - Philosophers must not starve and should not communicate or predict the death of their peers.
 - The simulation ends when a philosopher dies.
 
-![Eating Rules](https://camo.githubusercontent.com/9e4ebb996ddb180a2523cabaaa01c16a7a45d5020eb0fb3686acb6f093fa053d/68747470733a2f2f7a7570696d616765732e6e65742f75702f32302f33382f697337712e706e67)
+<div style="text-align:center;">
+  <img src="https://camo.githubusercontent.com/9e4ebb996ddb180a2523cabaaa01c16a7a45d5020eb0fb3686acb6f093fa053d/68747470733a2f2f7a7570696d616765732e6e65742f75702f32302f33382f697337712e706e67" alt="Eating Rules">
+</div>
+
 
 ## Simulation Options
 - `number_of_philosophers`: The count of philosophers and forks.
