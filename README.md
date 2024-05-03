@@ -1,5 +1,7 @@
 # Philosophers Project
 
+![Dining Philosophers Problem](https://upload.wikimedia.org/wikipedia/commons/7/7b/An_illustration_of_the_dining_philosophers_problem.png)
+
 ## Overview
 This project is part of the 42 school curriculum and focuses on multi-threading/multi-process programming using mutexes and semaphores. It includes three different programs that simulate variations of the classic Dining Philosophers problem, adhering to the same fundamental rules. The objective is to optimize C code to minimize CPU usage, ensuring the survival of the philosophers.
 
@@ -14,7 +16,7 @@ This project is part of the 42 school curriculum and focuses on multi-threading/
 - They require two forks to eat the spaghetti served at the circular table.
 - Philosophers must not starve and should not communicate or predict the death of their peers.
 - The simulation ends when a philosopher dies.
-
+![Eating Rules](https://camo.githubusercontent.com/9e4ebb996ddb180a2523cabaaa01c16a7a45d5020eb0fb3686acb6f093fa053d/68747470733a2f2f7a7570696d616765732e6e65742f75702f32302f33382f697337712e706e67)
 ## Simulation Options
 - `number_of_philosophers`: The count of philosophers and forks.
 - `time_to_die`: The maximum time (ms) a philosopher can go without eating before dying.
@@ -37,8 +39,3 @@ This project is part of the 42 school curriculum and focuses on multi-threading/
 - Status logs must not be mixed up with other philosophers' logs.
 - Death of a philosopher must be printed within 10 ms of occurrence.
 
-## Disclaimer for 42 Students
-If you are a 42 student, please refrain from copying and pasting this code. Understand and write your own code to ensure academic integrity and personal growth.
-
-## Author
-[menasy]
