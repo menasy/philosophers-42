@@ -17,10 +17,7 @@ This project is part of the 42 school curriculum and focuses on multi-threading/
 - Philosophers must not starve and should not communicate or predict the death of their peers.
 - The simulation ends when a philosopher dies.
 
-<div style="text-align:center;">
-  <img src="https://camo.githubusercontent.com/9e4ebb996ddb180a2523cabaaa01c16a7a45d5020eb0fb3686acb6f093fa053d/68747470733a2f2f7a7570696d616765732e6e65742f75702f32302f33382f697337712e706e67" alt="Eating Rules">
-</div>
-
+![Eating Rules](https://camo.githubusercontent.com/9e4ebb996ddb180a2523cabaaa01c16a7a45d5020eb0fb3686acb6f093fa053d/68747470733a2f2f7a7570696d616765732e6e65742f75702f32302f33382f697337712e706e67)
 
 ## Simulation Options
 - `number_of_philosophers`: The count of philosophers and forks.
@@ -43,3 +40,35 @@ This project is part of the 42 school curriculum and focuses on multi-threading/
 ## Constraints
 - Status logs must not be mixed up with other philosophers' logs.
 - Death of a philosopher must be printed within 10 ms of occurrence.
+
+## Installation
+```bash
+git clone git@github.com:MeNasy/philosophers-42.git
+```
+```bash
+cd path/to/philo
+```
+## Usage
+# Compile
+```bash
+make
+```
+# Execute
+- `./philo number_of_philosophers time_to_die time_to_eat time_to_sleep number_of_times_each_philosopher_must_eat`
+- Replace each placeholder with the corresponding value. For example:
+  No Die Test:
+- `Since these parameters are sufficient for the philosophers to survive, the programme will not terminate.`
+```bash
+./philo 4 410 200 200
+```
+Must Eat Test:
+- `If we use the same values but enter the number_of_times_each_philosopher_must_eat parameter,`
+- `the programme will end when each philosopher has eaten as much food as number_of_times_each_philosopher_must_eat.`
+```bash
+./philo 4 410 200 200 5
+```
+Die Test: 
+- `Since the values given are not enough for philosophers to live, a philosopher will die and the programme will end.`
+```bash
+./philo 4 410 200 200
+```
