@@ -1,6 +1,6 @@
 # Dining Philosophers Problem
 
-![Dining Philosophers Problem](https://upload.wikimedia.org/wikipedia/commons/7/7b/An_illustration_of_the_dining_philosophers_problem.png)
+![Dining Philosophers Problem](https://github.com/menasy/Project_icons/blob/main/Philo/philo.png)
 
 ## Overview
 This project is part of the 42 school curriculum and focuses on multi-threading/multi-process programming using mutexes and semaphores. It includes three different programs that simulate variations of the classic Dining Philosophers problem, adhering to the same fundamental rules. The objective is to optimize C code to minimize CPU usage, ensuring the survival of the philosophers.
